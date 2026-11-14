@@ -1,1 +1,5 @@
-# lista_exercicio_POO_06
+1. O Java Collections Framework é um conjunto de interfaces e classes que permite armazenar e manipular grupos de objetos em Java. Suas principais vantagens em relação aos arrays são o tamanho dinâmico, a facilidade para adicionar, remover e pesquisar elementos, além de oferecer diferentes estruturas de dados prontas para cada necessidade.
+
+2. A interface List permite elementos repetidos e mantém a ordem de inserção, sendo útil para listas de alunos ou produtos. A Set não permite elementos duplicados, sendo indicada para armazenar e-mails únicos. Já a Map trabalha com pares de chave e valor, sendo útil, por exemplo, para relacionar o CPF de uma pessoa ao seu nome.
+
+3. HashSet, LinkedHashSet e TreeSet são implementações da interface Set e não permitem elementos duplicados. O HashSet não garante a ordem dos elementos e possui operações de busca, inserção e remoção com complexidade média O(1), além de geralmente consumir menos memória que as outras implementações. O LinkedHashSet mantém a ordem de inserção e também possui complexidade média O(1), mas utiliza mais memória por armazenar informações adicionais sobre a ordem. Já o TreeSet mantém os elementos ordenados e possui complexidade O(log n) nas operações de busca, inserção e remoção, utilizando uma estrutura de árvore que também exige memória adicional.
